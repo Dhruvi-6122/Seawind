@@ -1,0 +1,51 @@
+
+body{
+    padding:50px;
+    background-image: url(Image/image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    background-color: transparent;
+    max-width: 1000px;
+    height: 700px;
+    margin: 250px 300px;
+    padding:50px;
+    box-shadow: rgba(100, 100, 111, 0.9) 0px 7px 29px 0px;
+}
+.container2{
+    background-color: transparent;
+    max-width: 1000px;
+    height: 500px;
+    margin: 350px 300px;
+    padding:50px;
+    box-shadow: rgba(100, 100, 111, 0.9) 0px 7px 29px 0px;
+}
+#id1{
+    margin-top: 50px;
+}
+.form-group{
+    margin-bottom:30px;
+}
+.form-control{
+    width: 930px;
+    padding: 10px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.btn{
+    margin-top: 20px;
+    margin-left: 300px;
+    padding: 20px 10px;
+    font-size: 35px;
+    font-weight: bolder;
+    width: 400px;
+}
+.msg{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+.link{
+    color: rgb(200, 231, 153);
+}
