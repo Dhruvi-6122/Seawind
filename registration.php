@@ -34,7 +34,7 @@ if (isset($_SESSION["user"])) {
        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
         array_push($errors, "Email is not valid");
        }
-       if (strlen($password)<8) {
+       if (strlen($password)<5) {
         array_push($errors,"Password must be at least 8 charactes long");
        }
        if ($password!==$passwordRepeat) {
@@ -74,15 +74,28 @@ if (isset($_SESSION["user"])) {
             <div class="form-group">
                 <input type="text" id="id1" class="form-control" name="fullname" placeholder="Full Name:">
             </div>
+            
+            
             <div class="form-group">
                 <input type="emamil" class="form-control" name="email" placeholder="Email:">
             </div>
+
+           
+
             <div class="form-group">
                 <input type="password" class="form-control" name="password" placeholder="Password:">
             </div>
+
+          
+
+
             <div class="form-group">
                 <input type="password" class="form-control" name="repeat_password" placeholder="Repeat Password:">
             </div>
+
+           
+
+
             <div class="form-btn">
                 <input type="submit" class="btn btn-primary" value="Register" name="submit">
             </div>
