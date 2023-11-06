@@ -1,4 +1,3 @@
-
 body{
     padding:50px;
     background-image: url(Image/image.jpg);
@@ -7,42 +6,43 @@ body{
 }
 .container{
     background-color: transparent;
-    max-width: 1000px;
-    height: 700px;
-    margin: 250px 300px;
-    padding:50px;
+    width: 480px;
+    height: 350px;
+    margin: 100px 100px;
+    padding: 20px;
     box-shadow: rgba(100, 100, 111, 0.9) 0px 7px 29px 0px;
 }
 .container2{
     background-color: transparent;
-    max-width: 1000px;
-    height: 500px;
-    margin: 350px 300px;
-    padding:50px;
+    max-width: 480px;
+    height: 300px;
+    margin: 120px 100px;
+    padding:20px;
     box-shadow: rgba(100, 100, 111, 0.9) 0px 7px 29px 0px;
 }
 #id1{
-    margin-top: 50px;
+    margin-top: 20px;
 }
 .form-group{
-    margin-bottom:30px;
+    margin-bottom: 10px;
 }
 .form-control{
-    width: 930px;
-    padding: 10px;
-    font-size: 35px;
+    width: 450px;
+    padding: 5px;
+    font-size: 15px;
     font-weight: bold;
 }
 .btn{
     margin-top: 20px;
-    margin-left: 300px;
-    padding: 20px 10px;
-    font-size: 35px;
+    margin-left: 190px;
+    padding: 10px 7px;
+    font-size: 15px;
     font-weight: bolder;
-    width: 400px;
+    width: 100px;
+    text-align: center;
 }
 .msg{
-    font-size: 40px;
+    font-size: 20px;
     text-align: center;
     color: white;
 }

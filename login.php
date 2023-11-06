@@ -37,7 +37,7 @@ if (isset($_SESSION["user"])) {
                 echo "<div class='alert alert-danger'>Email does not match</div>";
             }
         }
-        ?>
+    ?>
 
 
         
